@@ -1,0 +1,24 @@
+<div class="container-fluid p-5">
+    <h1>Insira um cliente</h1>
+    <form [formGroup]="fornecedorForm2" (ngSubmit)="update()" class="row g-3">
+      <input type="hidden" formControlName="id"/>
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually">Nome</label>
+        <input type="text" class="form-control" id="inputPassword2" placeholder="Nome" formControlName="nome">
+      </div>
+      <div class="col-auto">
+          <label for="inputPassword2" class="visually">Telefone</label>
+          <input type="text" class="form-control" id="inputPassword2" placeholder="Telefone" formControlName="telefone">
+        </div>
+      <div class="col-auto">
+          <label for="inputPassword2" class="visually">Endereço</label>
+          <input type="text" class="form-control" id="inputPassword2" placeholder="endereco" formControlName="endereco">
+        </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+      </div>
+    </form>
+  </div>
+  
+  
+  

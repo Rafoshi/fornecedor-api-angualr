@@ -1,0 +1,16 @@
+{
+    "fornecedores": [
+      {
+        "id": "vaispfc123",
+        "nome": "Matheus Stelutti",
+        "telefone": "11971177822",
+        "endereco": "Rua dos Bobos, n° 0"
+      },
+      {
+        "id": "morrarealmadrid",
+        "nome": "Marco Reus",
+        "telefone": "71901062024",
+        "endereco": "Rua Merengue"
+      }
+    ]
+  }
